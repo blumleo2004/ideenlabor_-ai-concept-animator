@@ -1,0 +1,7 @@
+{
+  "name": "Ideenlabor: AI Concept Animator",
+  "description": "An AI-powered tool to visualize complex concepts. Enter a prompt, and the AI generates a Manim animation script, a podcast-style audio explanation, and an interactive chat to help you learn.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
