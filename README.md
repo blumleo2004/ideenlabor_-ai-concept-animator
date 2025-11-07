@@ -1,7 +1,3 @@
-<div align="center">
-  <img alt="AI Concept Animator" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" width="1200">
-</div>
-
 # AI Concept Animator
 
 AI Concept Animator is a powerful tool that brings your ideas to life by transforming natural language prompts into captivating animations using the magic of Google's Gemini and Manim. Whether you're a student, educator, or creative professional, this application helps you visualize complex concepts with ease.
@@ -48,17 +44,21 @@ Before you begin, ensure you have the following installed:
 
 ### Running the Application
 
+To run the AI Concept Animator, you need to start both the backend and frontend servers in separate terminals.
+
 1.  **Start the Backend Server:**
+    Open a terminal or PowerShell window, navigate to the project's root directory, and run the following command:
     ```bash
     python manim_server.py
     ```
+    You should see output indicating that the FastAPI server is running, typically on `http://127.0.0.1:8000`.
 
 2.  **Start the Frontend Application:**
+    Open a *second* terminal or PowerShell window, navigate to the same project directory, and run:
     ```bash
     npm run dev
     ```
-
-    Open your browser and navigate to the local URL provided by Vite (usually `http://localhost:5173`).
+    The terminal will display a local URL (usually `http://localhost:5173`). Open this URL in your web browser to use the application.
 
 ## ⚙️ How It Works
 
@@ -78,8 +78,4 @@ When you enter a prompt, the frontend sends it to the backend. The backend then 
 ## 🤝 Contributing
 
 Contributions are welcome! If you have ideas for new features or improvements, feel free to open an issue or submit a pull request.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
